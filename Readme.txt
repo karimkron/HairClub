@@ -126,38 +126,44 @@ hair-club-app/
 
 1. **Clonar el repositorio**
 ```bash
-git clone https://github.com/tu-usuario/hair-club-app.git
-cd hair-club-app
+git clone https://github.com/karimkron/HairClub
+cd HairClub
 ```
 
 2. **Instalar dependencias del servidor**
 ```bash
-cd server
+cd .\peluqueria_backend\
 npm install
 ```
 
 3. **Instalar dependencias del cliente**
 ```bash
-cd ../client
+cd .\peluqueria_dashboard\
+npm install
+```
+4. **Instalar dependencias del Admin panel**
+```bash
+cd .\peluqueria_admin\
 npm install
 ```
 
-4. **Configurar variables de entorno**
+5. **Configurar variables de entorno**
 ```bash
 # En la carpeta server, crear archivo .env
 cp .env.example .env
 # Editar .env con tus configuraciones
 ```
 
-5. **Iniciar el servidor de desarrollo**
+6. **Iniciar el servidor de desarrollo**
 ```bash
 # Terminal 1 - Backend
-cd server
 npm run dev
 
 # Terminal 2 - Frontend
-cd client
-npm start
+npm run dev
+```
+# Terminal 3 - Admin panel
+npm run dev
 ```
 
 ## 📱 Funcionalidades Detalladas
@@ -245,9 +251,8 @@ Las contribuciones son bienvenidas. Por favor, sigue estos pasos:
 
 Para soporte técnico o consultas sobre el proyecto:
 
-- 📧 Email: [tu-email@ejemplo.com]
-- 📚 Documentación: [Link a documentación completa]
-- 🐛 Issues: [GitHub Issues](https://github.com/tu-usuario/hair-club-app/issues)
+- 📧 Email: berbkarim@gmail.com    
+- 📚 Documentación: Actualizado
 
 ## 📄 Licencia
 
